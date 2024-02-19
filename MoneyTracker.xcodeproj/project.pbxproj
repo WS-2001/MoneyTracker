@@ -14,6 +14,9 @@
 		71BC102E2B81E9450014321D /* MoneyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC102D2B81E9450014321D /* MoneyTrackerTests.swift */; };
 		71BC10382B81E9450014321D /* MoneyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC10372B81E9450014321D /* MoneyTrackerUITests.swift */; };
 		71BC103A2B81E9450014321D /* MoneyTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC10392B81E9450014321D /* MoneyTrackerUITestsLaunchTests.swift */; };
+		71BC10482B8325150014321D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC10472B8325140014321D /* Extensions.swift */; };
+		71BC104A2B832C2B0014321D /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC10492B832C2B0014321D /* TrackerModel.swift */; };
+		71BC104C2B832D050014321D /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC104B2B832D050014321D /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		71BC10332B81E9450014321D /* MoneyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BC10372B81E9450014321D /* MoneyTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerUITests.swift; sourceTree = "<group>"; };
 		71BC10392B81E9450014321D /* MoneyTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71BC10472B8325140014321D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		71BC10492B832C2B0014321D /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
+		71BC104B2B832D050014321D /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 			children = (
 				71BC101C2B81E9410014321D /* MoneyTrackerApp.swift */,
 				71BC101E2B81E9410014321D /* ContentView.swift */,
+				71BC10492B832C2B0014321D /* TrackerModel.swift */,
+				71BC10472B8325140014321D /* Extensions.swift */,
 				71BC10202B81E9440014321D /* Assets.xcassets */,
 				71BC10222B81E9440014321D /* Preview Content */,
 			);
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				71BC10232B81E9440014321D /* Preview Assets.xcassets */,
+				71BC104B2B832D050014321D /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71BC104C2B832D050014321D /* PreviewData.swift in Sources */,
 				71BC101F2B81E9410014321D /* ContentView.swift in Sources */,
+				71BC10482B8325150014321D /* Extensions.swift in Sources */,
+				71BC104A2B832C2B0014321D /* TrackerModel.swift in Sources */,
 				71BC101D2B81E9410014321D /* MoneyTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
